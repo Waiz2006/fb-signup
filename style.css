@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+.header {
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: rgba(59, 89, 152);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+}
+
+
+h1 {
+    align-items: center;
+    margin-left: 15px;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+
+.form {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 1100px;
+    justify-content: right;
+    align-items: center;
+
+}
+
+form {
+    padding: 10px;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    /* border: 2px solid black; */
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-conatier {
+    float: left;
+    width: 50%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    text-align: center;
+
+
+}
+
+
+#a>img {
+    float: left;
+    margin-left: 120px;
+}
+
+#a>p {
+    /* border: 1px solid black; */
+    width: 500px;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+
+#b>img {
+    float: left;
+    margin-left: 120px;
+
+}
+
+#b>p {
+    /* border: 1px solid black; */
+    width: 500px;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+
+#c>img {
+    float: left;
+    margin-left: 120px;
+
+}
+
+#c>p {
+    /* border: 1px solid black; */
+    width: 500px;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+
+.right-container {
+
+}
+
+#d{
+    margin-left: 95px;
+    /* border: 1px solid black; */
+    width: 500px;
+}
+#d>h1{
+    font-size: 50;
+    margin-left: 0px;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#d>h3{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.signup-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group {
+    margin-bottom: 2px;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .facebook-button {
+    background-color: #1877f2;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
